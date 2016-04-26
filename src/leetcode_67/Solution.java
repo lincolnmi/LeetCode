@@ -15,6 +15,12 @@ package leetcode_67;
 
  Subscribe to see which companies asked this question
  */
+
+/**
+ * Answer
+ * string add method
+ * add bitwise, mention carry
+ */
 public class Solution {
     public String addBinary(String a, String b) {
         int m = a.length(), n = b.length();
