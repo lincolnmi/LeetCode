@@ -40,7 +40,7 @@ public class Solution {
         if (to-from>=1) {
             return Arrays.copyOfRange(array,from,to);
         } else {
-            return new int[0];
+            return null;
         }
     }
 
