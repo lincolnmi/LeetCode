@@ -54,6 +54,8 @@ public class Solution {
                     stack.push(candidate);
                     combinationSum(candidates, target - candidate, stack, i);
                     stack.pop();
+                } else {
+                    break;
                 }
             }
         }
