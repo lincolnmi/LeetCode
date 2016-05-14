@@ -32,8 +32,11 @@ public class Solution {
                 i++;
             } else if (nums[i]<i+1) {
                 break;
+            } else if (nums[i]==nums[nums[i]]) {
+                break;
             } else {
                 swap(nums,i,nums[i]);
+
             }
         }
         return nums[i];
